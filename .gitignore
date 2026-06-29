@@ -1,0 +1,7 @@
+data/raw/*.zip
+warehouse/*.duckdb
+
+data/raw/
+data/processed/
+warehouse/*.duckdb
+outputs/features.csv
