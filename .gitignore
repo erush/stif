@@ -1,14 +1,23 @@
-data/raw/*.zip
-warehouse/*.duckdb
+.DS_Store
 
-data/raw/
-data/processed/
-warehouse/*.duckdb
-outputs/features.csv
+.venv/
+.vscode/
 
 __pycache__/
-.vscode/
+.pytest_cache/
+
+data/raw/
+!data/raw/.gitkeep
+
+data/processed/
+!data/processed/.gitkeep
+
 warehouse/*.duckdb
 
-outputs/dataset_profile.md
-outputs/dataset_summary.json
+outputs/*.json
+outputs/*.md
+
+outputs/*.csv
+!outputs/features.csv
+
+*.zip
